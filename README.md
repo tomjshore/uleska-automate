@@ -452,6 +452,14 @@ Turns on debugging mode within the CLI script.  Nuf said.
 For more details on the usage of the Uleska CLI, view the documentation at https://www.uleska.com
 
 ## Development 
+
+Install dev dependencies
 ```bash
 pip3 install -e .'[dev]'
+```
+
+Run test
+```bash
+coverage run -m pytest .
+coverage report
 ```
